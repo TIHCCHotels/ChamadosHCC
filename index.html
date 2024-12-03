@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="manifest.json">
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(() => console.log('Service Worker registrado'))
+        .catch((err) => console.log('Erro ao registrar o Service Worker:', err));
+    }
+  </script>
+  <title>Meu PWA</title>
+</head>
+<body>
+  <iframe
+    src="https://apps.powerapps.com/play/e/default-4dcc875c-1f7e-4e41-85ba-76cdd1dfc268/a/12518531-b8a3-4d6f-8b1c-b246a95a8233?tenantId=4dcc875c-1f7e-4e41-85ba-76cdd1dfc268&hint=4842c6f2-7426-4dda-ad5d-084b8b1d77c0&sourcetime=1733227828487"
+    style="border: none; width: 100%; height: 100vh;">
+  </iframe>
+</body>
+</html>
