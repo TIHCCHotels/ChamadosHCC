@@ -2,9 +2,9 @@
   "name": "Chamados HCC",
   "short_name": "Chamados",
   "start_url": "https://apps.powerapps.com/play/e/default-4dcc875c-1f7e-4e41-85ba-76cdd1dfc268/a/12518531-b8a3-4d6f-8b1c-b246a95a8233?tenantId=4dcc875c-1f7e-4e41-85ba-76cdd1dfc268&hint=4842c6f2-7426-4dda-ad5d-084b8b1d77c0&sourcetime=1733227828487",
-  "display": "standalone",
+  "display": "fullscreen",
   "background_color": "#ffffff",
-  "theme_color": "#0078D7",
+  "theme_color": "#ff5100",
   "description": "Aplicativo de Abertura de chamados HCC Hotels",
   "icons": [
     {
